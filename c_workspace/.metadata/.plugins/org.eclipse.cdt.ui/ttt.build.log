@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project ttt ****
+
+make all 
+Building file: ../src/ttt.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ttt.d" -MT"src/ttt.d" -o"src/ttt.o" "../src/ttt.c"
+cygwin warning:
+  MS-DOS style path detected: D:\androidLinux\workspace\ttt\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/androidLinux/workspace/ttt/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/ttt.c: In function 'main':
+../src/ttt.c:18: warning: unused variable 'fp'
+Finished building: ../src/ttt.c
+ 
+Building target: ttt.exe
+Invoking: Cygwin C Linker
+gcc  -o"ttt.exe"  ./src/ttt.o   
+Finished building target: ttt.exe
+ 

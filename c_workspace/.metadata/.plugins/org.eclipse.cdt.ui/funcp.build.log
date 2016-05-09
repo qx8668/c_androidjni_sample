@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project funcp ****
+
+make all 
+Building file: ../src/funcp.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funcp.d" -MT"src/funcp.d" -o"src/funcp.o" "../src/funcp.c"
+cygwin warning:
+  MS-DOS style path detected: D:\androidLinux\workspace\funcp\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/androidLinux/workspace/funcp/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/funcp.c
+ 
+Building target: funcp.exe
+Invoking: Cygwin C Linker
+gcc  -o"funcp.exe"  ./src/funcp.o   
+Finished building target: funcp.exe
+ 

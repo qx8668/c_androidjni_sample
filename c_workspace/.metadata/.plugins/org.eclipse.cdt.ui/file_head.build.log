@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project file_head ****
+
+make all 
+Building file: ../src/file_head.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/file_head.d" -MT"src/file_head.d" -o"src/file_head.o" "../src/file_head.c"
+cygwin warning:
+  MS-DOS style path detected: D:\androidLinux\workspace\file_head\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/androidLinux/workspace/file_head/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/file_head.c: In function 'main':
+../src/file_head.c:42: warning: unused variable 'x'
+Finished building: ../src/file_head.c
+ 
+Building target: file_head.exe
+Invoking: Cygwin C Linker
+gcc  -o"file_head.exe"  ./src/file_head.o   
+Finished building target: file_head.exe
+ 

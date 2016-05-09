@@ -1,0 +1,8 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=00000000
+eax=00000000 ebx=00A01786 ecx=0022CC63 edx=00000000 esi=00A01797 edi=00000000
+ebp=0022CD68 esp=0022CC63 program=D:\androidLinux\workspace\head_string2\Debug\head_string2.exe, pid 5576, thread main
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+ 114652 [main] head_string2 5576 exception::handle: Exception: STATUS_ACCESS_VIOLATION
+ 137425 [main] head_string2 5576 exception::handle: Error while dumping state (probably corrupted stack)

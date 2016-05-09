@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;head_file_digitfunction&apos;" deleteContents="true" description="Delete resource &apos;head_file_digitfunction&apos;" element1="/head_file_digitfunction" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1312965038697"/>
+</session>

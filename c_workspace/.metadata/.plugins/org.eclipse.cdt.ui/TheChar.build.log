@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project TheChar ****
+
+make all 
+Building file: ../src/TheChar.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TheChar.d" -MT"src/TheChar.d" -o"src/TheChar.o" "../src/TheChar.c"
+cygwin warning:
+  MS-DOS style path detected: D:\androidLinux\workspace\TheChar\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/androidLinux/workspace/TheChar/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/TheChar.c: In function 'copyString':
+../src/TheChar.c:175: warning: suggest parentheses around assignment used as truth value
+Finished building: ../src/TheChar.c
+ 
+Building target: TheChar.exe
+Invoking: Cygwin C Linker
+gcc  -o"TheChar.exe"  ./src/TheChar.o   
+Finished building target: TheChar.exe
+ 

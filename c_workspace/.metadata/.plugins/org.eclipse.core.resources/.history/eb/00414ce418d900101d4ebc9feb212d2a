@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : CopyFile.c
+ Author      : liuquanxing
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	puts("Copy File");
+
+	FILE *f_file, *f_pic, *f_finish;
+
+	char ch, pic_name[20], file_name[20], finish_name[20];
+
+	printf("请输入要合成的图片、文件名称: \n");
+	printf("图片: ");
+	scanf("%s", pic_name);
+	printf("文件: ");
+	scanf("%s", file_name);
+	printf("结果: ");
+	scanf("%s", finish_name);
+
+	return EXIT_SUCCESS;
+}

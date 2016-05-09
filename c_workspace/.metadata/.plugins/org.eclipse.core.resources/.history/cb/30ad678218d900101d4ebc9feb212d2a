@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : CopyFile.c
+ Author      : liuquanxing
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	puts("Copy File");
+
+	FILE *f_file, *f_pic, *f_finish;
+
+	char ch,pic_name[20],file_name[20],finish_name[20];
+
+	return EXIT_SUCCESS;
+}

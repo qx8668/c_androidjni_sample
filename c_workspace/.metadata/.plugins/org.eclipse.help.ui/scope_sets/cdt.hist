@@ -1,0 +1,4 @@
+#Mon Mar 07 17:01:35 CST 2011
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=cdt

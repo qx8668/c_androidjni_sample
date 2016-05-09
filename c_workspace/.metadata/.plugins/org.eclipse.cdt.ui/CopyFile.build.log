@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project CopyFile ****
+
+make all 
+Building file: ../src/CopyFile.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyFile.d" -MT"src/CopyFile.d" -o"src/CopyFile.o" "../src/CopyFile.c"
+cygwin warning:
+  MS-DOS style path detected: D:\androidLinux\workspace\CopyFile\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/androidLinux/workspace/CopyFile/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/CopyFile.c
+ 
+Building target: CopyFile.exe
+Invoking: Cygwin C Linker
+gcc  -o"CopyFile.exe"  ./src/CopyFile.o   
+Finished building target: CopyFile.exe
+ 

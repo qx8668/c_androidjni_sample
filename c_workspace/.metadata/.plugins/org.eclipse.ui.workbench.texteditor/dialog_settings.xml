@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="83" key="DIALOG_Y_ORIGIN"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="790" key="DIALOG_X_ORIGIN"/>
+		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="true" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="index" key="selection"/>
+		<list key="findhistory">
+			<item value="index"/>
+			<item value="__DBL_MAX_EXP__"/>
+			<item value="DBL_MAX"/>
+			<item value="d"/>
+			<item value="__INT_MAX__"/>
+			<item value="_char2utf"/>
+			<item value="LOGW"/>
+			<item value="jobject"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+			<item value="jobject thiz"/>
+			<item value="env"/>
+			<item value="JNIEnv"/>
+			<item value="j"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project head_string ****
+
+make all 
+Building file: ../src/head_string.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/head_string.d" -MT"src/head_string.d" -o"src/head_string.o" "../src/head_string.c"
+cygwin warning:
+  MS-DOS style path detected: D:\androidLinux\workspace\head_string\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/androidLinux/workspace/head_string/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/head_string.c
+ 
+Building target: head_string.exe
+Invoking: Cygwin C Linker
+gcc  -o"head_string.exe"  ./src/head_string.o   
+Finished building target: head_string.exe
+ 

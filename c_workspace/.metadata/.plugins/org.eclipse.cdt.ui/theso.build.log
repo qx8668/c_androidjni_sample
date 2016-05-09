@@ -1,0 +1,30 @@
+
+**** Build of configuration Debug for project theso ****
+
+make all 
+Building file: ../src/char2utf.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/char2utf.d" -MT"src/char2utf.d" -o"src/char2utf.o" "../src/char2utf.c"
+cygwin warning:
+  MS-DOS style path detected: D:\androidLinux\workspace\theso\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/androidLinux/workspace/theso/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/char2utf.c
+ 
+Building file: ../src/com_myapp_callyouself_AppString.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/com_myapp_callyouself_AppString.d" -MT"src/com_myapp_callyouself_AppString.d" -o"src/com_myapp_callyouself_AppString.o" "../src/com_myapp_callyouself_AppString.c"
+Finished building: ../src/com_myapp_callyouself_AppString.c
+ 
+Building file: ../src/theso.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/theso.d" -MT"src/theso.d" -o"src/theso.o" "../src/theso.c"
+Finished building: ../src/theso.c
+ 
+Building target: theso.exe
+Invoking: Cygwin C Linker
+gcc  -o"theso.exe"  ./src/char2utf.o ./src/com_myapp_callyouself_AppString.o ./src/theso.o   
+Finished building target: theso.exe
+ 

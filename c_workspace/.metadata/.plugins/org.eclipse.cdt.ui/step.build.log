@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project step ****
+
+make all 
+Building file: ../src/step03.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/step03.d" -MT"src/step03.d" -o"src/step03.o" "../src/step03.c"
+cygwin warning:
+  MS-DOS style path detected: D:\androidLinux\workspace\step\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/androidLinux/workspace/step/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/step03.c
+ 
+Building target: step.exe
+Invoking: Cygwin C Linker
+gcc  -o"step.exe"  ./src/step03.o   
+Finished building target: step.exe
+ 

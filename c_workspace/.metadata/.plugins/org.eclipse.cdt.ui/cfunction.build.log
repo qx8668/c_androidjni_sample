@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project cfunction ****
+
+make all 
+Building file: ../src/cfunction.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cfunction.d" -MT"src/cfunction.d" -o"src/cfunction.o" "../src/cfunction.c"
+cygwin warning:
+  MS-DOS style path detected: D:\androidLinux\workspace\cfunction\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/androidLinux/workspace/cfunction/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/cfunction.c: In function â€˜mainâ€?
+Finished building: ../src/cfunction.c
+ 
+Building target: cfunction.exe
+Invoking: Cygwin C Linker
+gcc  -o"cfunction.exe"  ./src/cfunction.o   
+Finished building target: cfunction.exe
+ 
+../src/cfunction.c:18: warning: implicit declaration of function â€˜strlenâ€?../src/cfunction.c:18: warning: incompatible implicit declaration of built-in function â€˜strlenâ€?../src/cfunction.c:41: warning: unused variable â€˜a16â€?../src/cfunction.c:40: warning: unused variable â€˜a8â€?../src/cfunction.c:33: warning: unused variable â€˜changeâ€?

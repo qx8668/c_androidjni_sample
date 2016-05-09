@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project mylang3 ****
+
+make all 
+Building file: ../src/mylang3.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mylang3.d" -MT"src/mylang3.d" -o"src/mylang3.o" "../src/mylang3.c"
+cygwin warning:
+  MS-DOS style path detected: D:\androidLinux\workspace\mylang3\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/androidLinux/workspace/mylang3/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/mylang3.c
+ 
+Building target: mylang3.exe
+Invoking: Cygwin C Linker
+gcc  -o"mylang3.exe"  ./src/mylang3.o   
+Finished building target: mylang3.exe
+ 
